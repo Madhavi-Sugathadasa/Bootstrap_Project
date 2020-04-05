@@ -1,2 +1,1 @@
-# Bootstrap_Project_tindog
-Create A Responsive Bootstrap Website From Scratch
+A Responsive Bootstrap Website From Scratch
