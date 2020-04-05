@@ -59,6 +59,8 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
     
 }
 
@@ -66,6 +68,7 @@ p {
 #features {
     background-color: #fff;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box {
@@ -120,4 +123,15 @@ p {
 
 .pricing-colum {
     padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+    
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
